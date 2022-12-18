@@ -1,0 +1,11 @@
+Instructions to Run the code. 
+
+1. Download and extract the folder on your machine.
+2. Open the folder directory in Matlab 
+3. Open the Command window
+4. Run: Run_All()   #The method contains the initialization and calls to the relevant functions
+5. The output will be displayed on the console sequentially for each method
+6. Observe the console window to view the results
+7. Observe the figures to view images/results
+
+That's it. (It takes some time (2-3 mins) to run PCA)

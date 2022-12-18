@@ -1,0 +1,10 @@
+Instructions to Run the code. 
+
+1. Download and extract the folder on your machine.
+2. Open the folder directory in Matlab 
+3. Open the Command window
+4. Run: Run_All()   #The method contains the initialization and calls to the relevant methods
+5. The output will be displayed on the console for each function and each method in a sequence
+6. Scroll up and down to view the results. (function minima, and interactions)
+
+That's it. 

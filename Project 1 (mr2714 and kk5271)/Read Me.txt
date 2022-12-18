@@ -1,0 +1,23 @@
+Instructions to Run the code. 
+
+1. Download and extract the folder on your machine.
+2. Open the folder directory in Matlab 
+3. Open the Command window
+4. Run: Labels = Curve_fitting()
+5. The labels will be saved to the 'output.txt'
+
+Instruction to Run Step-wise Code.
+
+1. Download and extract the folder on your machine.
+2. Open the folder directory in Matlab 
+3. Open the Command window
+4. Run: [features, Ground_truth]= Load_data_Trainingset()
+5. Run: Z = Z_formation(features)
+6. Run: Weights = Linear_Regression(Z, Ground_truth)
+7. Run: MSE = Mean_Squared_Error(Weights, Z, Ground_truth)
+8. Run: [Train_Error, Test_Error] = Kfold_CrossValidation(features, Ground_truth, 5)
+9. Run: Features_engineering(features, Ground_truth, 5)
+10. Run: Labels = Curve_fitting()
+11. Get all labels in the output.txt file
+
+That's it. 
